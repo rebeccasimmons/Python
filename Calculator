@@ -1,0 +1,21 @@
+# Python program to make a simple calculator
+
+# taking user input
+n1 = float(input("Enter first number: "))
+n2 = float(input("Enter second number: "))
+
+# choice operation
+print("Operation: +, -, *, /")
+op = input("Select operations: ")
+
+# check operations and display result
+if op == "+":
+    print(n1, "+", n2, "=", n1+n2)
+elif op == "-":
+    print(n1, "-", n2, "=", n1-n2)
+elif op == "*":
+    print(n1, "*", n2, "=", n1*n2)
+elif op == "/":
+    print(n1, "/", n2, "=", n1/n2)
+else:
+    print("Invalid input")
